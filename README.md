@@ -1,19 +1,27 @@
 # twilioapp
 An app to try out Twilio's API  
 
-### REQUIREMENTS
+### REQUIREMENTS 
 
-Built using Python and Twilio API.  
+Requires Python 3.X and Twilio installed.  
 
-Run `pip install requirements.txt`.  
+**To Install Twilio**
 
-Requires a Twilio account and a credentials.py file.
+Run `pip install requirements.txt`. 
 
-Go to [www.twilio.com](https://www.twilio.com/try-twilio) to get a free account.
+**To Get Twilio Credentials**
 
-Create a python file called `credentials.py`.
+1. Go to [www.twilio.com](https://www.twilio.com/try-twilio) to get a free account.
+2. Get a free Twilio number.
+3. Verify a mobile number (eg., your personal cell or a number that can receive text msgs).
+4. Find your `Account SID` and the `Auth Token`.
+ 
+### SETUP
 
-Add the following to the file:
+Before running app, be sure to include a `credentials.py` file with your Twilo credentials.
+
+1. Create a python file named `credentials.py`.
+2. Add the following to the file:
 
 	account_sid = ''
 	auth_token = ''
