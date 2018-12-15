@@ -22,9 +22,11 @@ Before running app, be sure to include a `credentials.py` file with your Twilo c
 
 1. Create a python file named `credentials.py`.
 2. Add the following to the file:
+
 		account_sid = ''
 		auth_token = ''
 		my_cell = '+[countrycode]YOURMOBILE#'
-		 = '+[countrycode]YOURTWILIO#'
+		my_twilio = '+[countrycode]YOURTWILIO#'
+
 
 
