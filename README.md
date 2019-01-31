@@ -1,5 +1,5 @@
 # twilioapp
-An app to try out Twilio's API  
+An app to try out Twilio's WhatsApp API. 
 
 ### REQUIREMENTS 
 
@@ -7,7 +7,7 @@ Requires Python 3.X and Twilio installed.
 
 **To Install Twilio**
 
-Run `pip install requirements.txt`. 
+Run `pip install -r requirements.txt`. 
 
 **To Get Twilio Credentials**
 
