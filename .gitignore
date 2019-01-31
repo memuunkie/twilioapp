@@ -1,1 +1,31 @@
+# NEVER EVER EVER
 credentials.py
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# pyenv
+.python-version
+
+set_env_vars.sh
+
+bin/
+lib/
+pyvenv.cfg
+share/
