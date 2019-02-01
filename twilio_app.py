@@ -26,14 +26,6 @@ client = Client(account_sid, auth_token)
 api_instance = giphy_client.DefaultApi()
 giphy_api_key = giphy_api_key
 
-# message = client.messages.create(
-#                               body='Hello there!',
-#                               from_='whatsapp:%s' % my_twilio_whatsapp,
-#                               to='whatsapp:%s' % my_cell
-#                           )
-
-# print(message.sid)
-
 @app.route("/sms", methods=['GET', 'POST'])
 def sms_ahoy_reply():
     """Respond to incoming msgs with friendly SMS"""
@@ -61,7 +53,6 @@ def get_giphy():
         # api_response = api_instance.gifs_random_get(giphy_api_key, tag=tag, fmt=fmt)
         # pprint(api_response)
         gif = requests.request("GET", request_url, data=payload).json()
-        pprint(gif['data']['images']['fixed_height_small'])
         return gif['data']['images']['fixed_height_small']['mp4'], tag
 
     except ApiException as e:
