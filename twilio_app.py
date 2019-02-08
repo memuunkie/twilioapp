@@ -26,6 +26,10 @@ client = Client(account_sid, auth_token)
 api_instance = giphy_client.DefaultApi()
 giphy_api_key = giphy_api_key
 
+
+#################################################################################
+# App
+
 @app.route("/sms", methods=['GET', 'POST'])
 def sms_ahoy_reply():
     """Respond to incoming msgs with friendly SMS"""
