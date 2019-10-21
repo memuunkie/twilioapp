@@ -19,4 +19,4 @@ style==1.1.0
 twilio==6.23.1
 update==0.0.1
 urllib3==1.24.1
-Werkzeug==0.14.1
+Werkzeug==0.15.3
